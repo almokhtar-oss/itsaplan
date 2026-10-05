@@ -1,5 +1,37 @@
 # Changelog
 
+## [1.4.0](https://github.com/croffasia/itsaplan/compare/v1.3.0...v1.4.0) (2026-10-05)
+
+
+### Features
+
+* give workspace owners and admins access to every team and project ([#483](https://github.com/croffasia/itsaplan/issues/483)) ([c29acdf](https://github.com/croffasia/itsaplan/commit/c29acdf0f4f4f12ba4910b72bb5bd292afc5177f))
+* personal workspaces, workspace settings and instance-wide SCIM ([#478](https://github.com/croffasia/itsaplan/issues/478)) ([a32ab66](https://github.com/croffasia/itsaplan/commit/a32ab660d45719ab67b6d19554b7cc0fc6e1cfe9))
+* **worker:** keep the source's created and updated dates on imported issues ([#476](https://github.com/croffasia/itsaplan/issues/476)) ([57fd090](https://github.com/croffasia/itsaplan/commit/57fd0902b82bd02e8a269b4f082148d68fcc30bf))
+
+
+### Bug Fixes
+
+* **web:** seed a Docs session from the stored Markdown, not the open editor ([#482](https://github.com/croffasia/itsaplan/issues/482)) ([445f324](https://github.com/croffasia/itsaplan/commit/445f32437ace616fe8874d3132bc1ea79ddf5b2f))
+* **web:** show release notes above the document toolbar ([#481](https://github.com/croffasia/itsaplan/issues/481)) ([c90346b](https://github.com/croffasia/itsaplan/commit/c90346b518b0b61cd455e0b5493d9bee6ca669f1))
+* **worker:** keep distinct source issues with the same title apart ([#474](https://github.com/croffasia/itsaplan/issues/474)) ([a481f60](https://github.com/croffasia/itsaplan/commit/a481f602b687234b26a3c70cbb46cbb67bb74a20))
+* **worker:** read an issue's comments before recording it as imported ([#475](https://github.com/croffasia/itsaplan/issues/475)) ([2358676](https://github.com/croffasia/itsaplan/commit/23586761707a8316f402505e201e47c14bea594c))
+
+
+### Refactoring
+
+* **worker:** make the import pipeline source-neutral ([#477](https://github.com/croffasia/itsaplan/issues/477)) ([1acb20c](https://github.com/croffasia/itsaplan/commit/1acb20ccced4f2019fcc5ccb04f49fcdec9c2b8b))
+
+
+### Documentation
+
+* remove breaking-changes.md in favor of release notes ([#472](https://github.com/croffasia/itsaplan/issues/472)) ([ba331ae](https://github.com/croffasia/itsaplan/commit/ba331aee07c1483a0713e2f4c6538e8c9c934d45))
+
+
+### Tests
+
+* **api:** expect 409 when the workspace owner loses an ownership race ([#484](https://github.com/croffasia/itsaplan/issues/484)) ([dd559ad](https://github.com/croffasia/itsaplan/commit/dd559ad5665f662d543b0d222439d67e74de190b))
+
 ## [1.3.0](https://github.com/croffasia/itsaplan/compare/v1.2.1...v1.3.0) (2026-10-04)
 
 
